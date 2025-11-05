@@ -1,0 +1,60 @@
+:root {
+–-primary-red: #dc3545;
+}
+
+#heading1{
+    color: green;
+    background-color: aquamarine;
+}
+
+.text-pink{
+    color: pink
+}
+
+.text-background-yellow{
+    background-color: yellow;
+}
+
+body{
+    background-image: url("../Asset/img/sample.jpg");
+    background-repeat: no-repeat;
+    background-position: right top;
+    background-attachment: fixed;
+    color:rgb(245, 115, 22);
+    font-family: "momo trust sans", "Arial", sans-serif
+}
+
+h1{
+    font-size: 3.8rem;
+    font-family: "momo trust sans", "Arial", sans-serif;
+    font-style: italic;
+    font-weight: 900;
+}
+
+a{
+    color: var (--primary-red);
+    text-decoration: none;
+    background-color: yellow;
+    padding: 20px 10px 20px 10px;
+    margin-left: 50px;
+}
+
+a:hover{
+    color:orange;
+    background-color: cadetblue;
+}
+
+.text-para{
+    font-size: 1.8rem;
+    font-family: "momo trust sans", "Arial", sans-serif;
+    text-align: justify;
+    text-decoration-line: underline;
+    text-decoration-style: wavy;
+    text-transform: uppercase;
+}
+
+@media (max-width: 576px){
+   body {
+    background-color: lightblue;
+   }
+}
