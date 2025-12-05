@@ -1,31 +1,32 @@
 <html>
-    <head>
-        <title>About | Meagan McNarry</title>
-        <link rel="stylesheet" href="Asset/styles.css">
-        <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Momo+Trust+Sans:wght@200..800&display=swap" rel="stylesheet">
-    </head>
+<head>
+    <title>About | Meagan McNarry</title>
+    <link rel="stylesheet" href="Asset/styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Momo+Trust+Sans:wght@200..800&display=swap" rel="stylesheet">
+</head>
 
 <body>
-
-    <section>
+    <section> <!--Nav Bar-->
     <div class="nav-bar">
-        <a id="name_button" class="nav-button" href="index.html">Meagan McNarry</a>
     <div class="container-buttons">
         <a id="index-button" class="nav-button" href="index.html">Home</a>
         <a id="portfolio-button" class="nav-button" href="portfolio.html">Portfolio</a>
         <a id="about-button" class="nav-button" href="about.html">About</a>
         <a id="contact-button" class="nav-button" href="contact.html">Contact</a>
     </div>
+        <a id="name-button" class="nav-button" href="index.html">Meagan McNarry</a>
         <br>
         <a id="art">Character Designer & Illustrator</a>
     </div>
     </section>
 
-<div class="container">
+    <section> <!--About Content-->
+    <div class="about-container">
     <img src="Asset/img/artist bio.jpg" alt="Self Portrait" width="400">
-    <p id="About-paragraph" class="about-page-text">Meagan is an artist based out of Montréal, Canada. She has garnered
+    <div class="about-text">
+    <a id="About-paragraph" class="about-page-text">Meagan is an artist based out of Montréal, Canada. She has garnered
         attention for her fan art of media that interests her, which has led to creators reaching out 
         and commissioning her or involving her in projects. She is currently conceptualizing a graphic
         novel while finishing her last year of graduate studies at McGill University in Information
@@ -37,33 +38,15 @@
         thoughtfully. Though she has taken a more academic route in recent years, she continues to create art in her 
         personal time and is always open to new collaborations and commissions. Meagan is looking forward 
         to seeing where the journey takes her. <br> <br>
-        Want to collaborate? Get in touch <a id="about-contact-button" href="contact.html">here!</a>
-    </p>
-</div>
-
+        Want to collaborate? Get in touch <a id="about-contact-button" href="contact.html">here!</a></a>
+    </div>
+    </div>
+    </section>
 </body>
 
+<!--CSS Overrides-->
 <style>
-        #about-button{ 
-        color: rgb(195, 195, 195);
-    }
-    
-    .container {
-        display: flex;
-        align-items: center;
-        justify-content: space-between;
-        padding-top: 100px;
-        padding-left: 200px;
-        padding-right: 200px;
-        gap: 200px;
-    }
-
-    #about-contact-button{
-        color: rgb(255, 132, 0);
-        text-decoration:none;
-    }
-
-    #about-contact-button:hover{
-        color: rgb(0, 196, 222);
-    }
+    #about-button{ 
+    color: rgb(195, 195, 195);
+}
 </style>

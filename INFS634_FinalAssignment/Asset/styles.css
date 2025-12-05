@@ -1,3 +1,59 @@
+/* Navigation bar styles */
+#name-button{
+    color: rgb(255, 132, 0);
+    font-size: 1.8rem;
+    font-family: "momo trust sans", "Arial", sans-serif;
+    font-weight: 600;
+    padding-block: 10px;
+    padding-left: 10px;
+    text-decoration:none;
+    text-align: left;
+}
+
+#art{
+    color: rgb(126, 124, 120);
+    font-size: 1.3rem;
+    font-family: "momo trust sans", "Arial", sans-serif;
+    padding-left: 10px;
+    padding-block: 0px;
+    text-align: left;
+}
+
+.nav-button{
+    font-size: 1.3rem;
+    font-family: "momo trust sans", "Arial", sans-serif;
+    text-decoration: none;
+    color: rgb(255, 132, 0);
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.nav-button:hover{
+    color: rgb(0, 196, 222);
+}
+
+.nav-bar{
+    padding:20px;
+}
+
+.name-title{
+    display: inline;
+}
+
+.container-buttons{
+    float: right;
+    padding-top: 5px;
+}
+
+/* Navigation bar styles end */
+
+/* Body styles */
+body {
+    background-color: rgb(255, 252, 246);
+}
+/* Body styles end */
+
+/* Index page styles */
 #heading1{
     color: rgb(255, 132, 0);
     font-size: 3.8rem;
@@ -9,6 +65,10 @@
     height: 90px;
     margin: auto;
     padding-top: 50px;
+    position: absolute;
+    top: 44%;
+    left: 50%;
+    transform: translate(-50%, -50%);
 }
 
 #heading2{
@@ -21,52 +81,38 @@
     width: 800px;
     height: 150px;
     margin: auto;
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%, -50%);
 }
 
-body {
-    background-color: rgb(255, 252, 246);
+#portfolio-button-home{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+            
+#about-button-home{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
 }
 
-#name_button{
-    color: rgb(255, 132, 0);
-    font-size: 1.8rem;
-    font-family: "momo trust sans", "Arial", sans-serif;
-    font-weight: 600;
-    padding-block: 10px;
-    padding-left: 10px;
-    text-decoration:none;
+#portfolio-button-home{
+    left: 44%;
+    top: 61%;
 }
-
-.nav-button{
-    font-size: 1.3rem;
-    font-family: "momo trust sans", "Arial", sans-serif;
-    text-decoration: none;
-    color: rgb(255, 132, 0);
-    padding-block: 10px;
-    padding-left: 10px;
-    padding-right: 10px;
+    
+#about-button-home{
+    left: 56%;
+    top: 61%;
 }
+/* Index page styles end */
 
-.nav-button:hover{
-    color: rgb(0, 196, 222);
-}
-
-#art{
-    color: rgb(126, 124, 120);
-    font-size: 1.3rem;
-    font-family: "momo trust sans", "Arial", sans-serif;
-    padding-left: 10px;
-    padding-block: 0px;
-}
-
-.nav-bar{
-    padding:20px;
-}
-
-.container-buttons{
-    float: right;
-}
-
+/* Portfolio page styles */
 .gallery{
     display: flex;
     flex-wrap: wrap;
@@ -77,18 +123,19 @@ body {
 }
 
 .project-thumbnail{
-  border: 1px solid #ddd; /* Gray border */
-  border-radius: 4px;  /* Rounded border */
-  padding: 1px; /* Some padding */
-  width: 300px; /* Set a small width */
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  padding: 1px;
+  width: 300px;
   height: 400px;
-  
 }
 
 .project-thumbnail:hover{
   box-shadow: 0 0 2px 1px rgba(0, 191, 255, 0.5);
 }
+/* Portfolio page styles end */
 
+/* Project page styles */
 .project-content{
     display: flex;
     flex-wrap: wrap;
@@ -98,7 +145,7 @@ body {
     justify-content: center;
 }
 
-#project-title, #contact-title{
+#project-title{
     color: rgb(255, 132, 0);
     font-size: 1.5rem;
     font-family: "momo trust sans", "Arial", sans-serif;
@@ -108,7 +155,7 @@ body {
     text-align: center;
 }
 
-#project-subtitle, #contact-paragraph{
+#project-subtitle{
     color: rgb(126, 124, 120);
     font-size: 1.3rem;
     font-family: "momo trust sans", "Arial", sans-serif;
@@ -116,26 +163,99 @@ body {
     text-align: center;
 }
 
-#project-description, .contact-form-text{
+#project-description{
     color: rgb(126, 124, 120);
     font-size: 1.1rem;
     font-family: "momo trust sans", "Arial", sans-serif;
     font-weight: 300;
     text-align: center;
 }
-.about-page-text{
+/* Project page styles end */
+
+/* About page styles */
+
+#about-contact-button{
+    color: rgb(255, 132, 0);
+    text-decoration:none;
+}
+
+#about-contact-button:hover{
+    color: rgb(0, 196, 222);
+}
+
+.about-text{
     color: rgb(126, 124, 120);
     font-size: 1.2rem;
     font-family: "momo trust sans", "Arial", sans-serif;
     font-weight: 300;
     line-height: 1.6;
+    max-width: 600px;
+    display: inline-block;
     text-align: justify;
 }
 
+.about-container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 175px;
+    padding-top: 100px
+}
+/* About page styles end */
+
+/* Contact page styles */
 .contact-container{
     padding: 20px;
+    padding-top: 10px;
+}
+
+#contact-title{
+    color: rgb(255, 132, 0);
+    font-size: 1.5rem;
+    font-family: "momo trust sans", "Arial", sans-serif;
+    font-weight: 500;
+    text-decoration:none;
     padding-top: 50px;
     text-align: center;
-    max-width: fit-content;
-    padding-left: 580px;
+
+}
+
+#contact-paragraph{
+    color: rgb(126, 124, 120);
+    font-size: 1.3rem;
+    font-family: "momo trust sans", "Arial", sans-serif;
+    font-weight: 300;
+    text-align: center;
+}
+
+.contact-form-text{
+    color: rgb(126, 124, 120);
+    font-size: 1.1rem;
+    font-family: "momo trust sans", "Arial", sans-serif;
+    font-weight: 300;
+    text-align: center;
+}
+
+#name, #email{
+    width: 250px;
+}
+
+#message{
+    width: 450px;
+}
+
+.contact-links{
+    color: rgb(255, 132, 0);
+    text-decoration:none;
+}
+
+.contact-links:hover{
+    color: rgb(0, 196, 222);
+}
+/* Contact page styles end */
+
+@media (max-width: 800px){
+    .container-buttons{
+        float: left;
+    }
 }
