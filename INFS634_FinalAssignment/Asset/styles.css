@@ -267,6 +267,14 @@ body {
         display: none;
     }
 
+    #heading1{
+        line-height: 1.2;
+    }
+
+    #heading2{
+        line-height: 1.2;
+    }
+
 @media screen and (max-width: 600px) {
 
 .center{
