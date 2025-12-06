@@ -259,43 +259,25 @@ body {
         float: left;
     }
 
-   /* #portfolio-button-home{
-        line-height: 2;
+    #name-button{
+        display: none;
     }
-    */
-    #about-button-home{
-        line-height: 2;
+
+    #art{
+        display: none;
     }
-/*
-    #heading2{
-        line-height: 1.2;
-    }
-*/
 
 @media screen and (max-width: 600px) {
-    
-#message{
-    width: 200px;
-}
-    
-#name-button{
-    color: rgb(255, 132, 0);
-    font-size: 1.3rem;
-    font-family: "momo trust sans", "Arial", sans-serif;
-    font-weight: 600;
-    padding-block: 10px;
-    padding-left: 10px;
-    text-decoration:none;
-    text-align: left;
+
+.center{
+    padding-top: 25px;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-bottom: 60px;
 }
 
-#art{
-    color: rgb(126, 124, 120);
-    font-size: 1.0rem;
-    font-family: "momo trust sans", "Arial", sans-serif;
-    padding-left: 10px;
-    padding-block: 0px;
-    text-align: left;
+#message{
+    width: 300px;
 }
 
 .nav-button{
@@ -336,11 +318,11 @@ body {
 }
 
 #Lorna-portrait-project{
-    max-width: 80%
+    width: 80%
 }
 
 #Lorna-sketch{
-    max-width: 80%
+    width: 80%
 }
 
 }
