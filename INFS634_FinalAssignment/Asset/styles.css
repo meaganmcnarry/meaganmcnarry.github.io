@@ -24,6 +24,8 @@
     font-family: "momo trust sans", "Arial", sans-serif;
     text-decoration: none;
     color: rgb(255, 132, 0);
+    padding-top: 10px;
+    padding-bottom: 10px;
     padding-left: 10px;
     padding-right: 10px;
 }
@@ -44,7 +46,6 @@
     float: right;
     padding-top: 5px;
 }
-
 /* Navigation bar styles end */
 
 /* Body styles */
@@ -59,16 +60,6 @@ body {
     font-size: 3.8rem;
     font-family: "momo trust sans", "Arial", sans-serif;
     font-weight: 600;
-    text-align: center;
-    background-color: rgb(255, 252, 246);
-    width: 800px;
-    height: 90px;
-    margin: auto;
-    padding-top: 50px;
-    position: absolute;
-    top: 44%;
-    left: 50%;
-    transform: translate(-50%, -50%);
 }
 
 #heading2{
@@ -76,40 +67,43 @@ body {
     font-size: 2.2rem;
     font-family: "momo trust sans", "Arial", sans-serif;
     font-weight: 300;
+}
+
+.home-container{
     text-align: center;
-    background-color: rgb(255, 252, 246);
-    width: 800px;
-    height: 150px;
-    margin: auto;
-    position: absolute;
-    top: 60%;
-    left: 50%;
-    transform: translate(-50%, -50%);
+    line-height: 1;
+    background-color:rgb(255, 252, 246);
 }
 
-#portfolio-button-home{
+.center{
+    margin: 0;
     position: absolute;
     top: 50%;
     left: 50%;
+    -ms-transform: translate(-50%, -50%);
     transform: translate(-50%, -50%);
-}
-            
-#about-button-home{
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
+    background-color:rgb(255, 252, 246);
+    padding-top: 35px;
+    padding-left: 80px;
+    padding-right: 80px;
+    padding-bottom: 80px;
 }
 
-#portfolio-button-home{
-    left: 44%;
-    top: 61%;
+.nav-button-home{
+    font-size: 1.3rem;
+    font-family: "momo trust sans", "Arial", sans-serif;
+    text-decoration: none;
+    color: rgb(255, 132, 0);
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 30px;
+    padding-right: 30px;
 }
-    
-#about-button-home{
-    left: 56%;
-    top: 61%;
+
+.nav-button-home:hover{
+    color: rgb(0, 196, 222);
 }
+
 /* Index page styles end */
 
 /* Portfolio page styles */
@@ -177,6 +171,8 @@ body {
 #about-contact-button{
     color: rgb(255, 132, 0);
     text-decoration:none;
+    padding-block: 5px;
+    padding-right: 5px;
 }
 
 #about-contact-button:hover{
@@ -192,6 +188,8 @@ body {
     max-width: 600px;
     display: inline-block;
     text-align: justify;
+    padding-left: 20px;
+    padding-right: 20px;
 }
 
 .about-container{
@@ -254,8 +252,22 @@ body {
 }
 /* Contact page styles end */
 
-@media (max-width: 800px){
+@media (max-width: 768px){
+
     .container-buttons{
         float: left;
     }
+
+    #portfolio-button-home{
+        line-height: 2;
+    }
+    
+    #about-button-home{
+        line-height: 2;
+    }
+
+    #heading2{
+        line-height: 1.2;
+    }
+
 }
