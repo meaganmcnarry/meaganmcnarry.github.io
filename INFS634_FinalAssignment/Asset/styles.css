@@ -86,7 +86,7 @@ body {
     padding-top: 35px;
     padding-left: 80px;
     padding-right: 80px;
-    padding-bottom: 80px;
+    padding-bottom: 70px;
 }
 
 .nav-button-home{
@@ -98,6 +98,7 @@ body {
     padding-bottom: 20px;
     padding-left: 30px;
     padding-right: 30px;
+    line-height: 2;
 }
 
 .nav-button-home:hover{
@@ -270,4 +271,78 @@ body {
         line-height: 1.2;
     }
 */
+
+@media screen and (max-width: 600px) {
+    
+#message{
+    width: 200px;
+}
+    
+#name-button{
+    color: rgb(255, 132, 0);
+    font-size: 1.3rem;
+    font-family: "momo trust sans", "Arial", sans-serif;
+    font-weight: 600;
+    padding-block: 10px;
+    padding-left: 10px;
+    text-decoration:none;
+    text-align: left;
+}
+
+#art{
+    color: rgb(126, 124, 120);
+    font-size: 1.0rem;
+    font-family: "momo trust sans", "Arial", sans-serif;
+    padding-left: 10px;
+    padding-block: 0px;
+    text-align: left;
+}
+
+.nav-button{
+    font-size: 1.0rem;
+    font-family: "momo trust sans", "Arial", sans-serif;
+    text-decoration: none;
+    color: rgb(255, 132, 0);
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+#project-title{
+    color: rgb(255, 132, 0);
+    font-size: 1.2rem;
+    font-family: "momo trust sans", "Arial", sans-serif;
+    font-weight: 500;
+    text-decoration:none;
+    padding-top: 50px;
+    text-align: center;
+}
+
+#project-subtitle{
+    color: rgb(126, 124, 120);
+    font-size: 1.0rem;
+    font-family: "momo trust sans", "Arial", sans-serif;
+    font-weight: 300;
+    text-align: center;
+}
+
+#project-description{
+    color: rgb(126, 124, 120);
+    font-size: 1.0rem;
+    font-family: "momo trust sans", "Arial", sans-serif;
+    font-weight: 300;
+    text-align: center;
+}
+
+#Lorna-portrait-project{
+    max-width: 80%
+}
+
+#Lorna-sketch{
+    max-width: 80%
+}
+
+}
+
 }
