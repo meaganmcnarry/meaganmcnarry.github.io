@@ -288,7 +288,11 @@ body {
     }
 
     #logo-nav{
-        width: 8%;
+        width: 10%;
+    }
+
+    .logo-nav{
+        width: 10%;
     }
 
     /* Index page adjustments */
