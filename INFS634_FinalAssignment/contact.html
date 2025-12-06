@@ -10,8 +10,8 @@
 
 <body>
     <section> <!--Nav Bar-->
-    <div class="nav-bar">
-    <div class="container-buttons">
+    <div class="nav-bar" role="navigation">
+    <div class="container-buttons" role="navigation buttons">
         <a id="index-button" class="nav-button" href="index.html">Home</a>
         <a id="portfolio-button" class="nav-button" href="portfolio.html">Portfolio</a>
         <a id="about-button" class="nav-button" href="about.html">About</a>
@@ -24,11 +24,11 @@
     </section>
 
     <section><!--Contact Content-->
-    <div class="contact-container">
-    <h1 id="contact-title">Wanna Work Together?</h1><br>
-    <p id="contact-paragraph">I am currently open to commissions and collaborations!<br>Let me know what you have in mind!</p><br>
-    <div class="contact-form-text">
-   <form action="https://formspree.io/f/meqydgpl" method="POST">
+    <div class="contact-container" role="main">
+    <h1 id="contact-title" role="header">Wanna Work Together?</h1><br>
+    <p id="contact-paragraph" role="subtitle">I am currently open to commissions and collaborations!<br>Let me know what you have in mind!</p><br>
+    <div class="contact-form-text" role="content">
+   <form action="https://formspree.io/f/meqydgpl" role="form" method="POST">
         <label for="name">Name:</label><br>
         <input type="text" id="name" name="name" required><br><br>
         <label for="email">Email:</label><br>
@@ -42,7 +42,7 @@
         <textarea id="message" name="message" rows="6" required></textarea><br><br>
         <input type="submit" value="Submit">
     </form><br>
-    <p id="contact-paragraph">Or, you can get in touch through email or socials:<br><br>
+    <p id="contact-paragraph" role="contacts">Or, you can get in touch through email or socials:<br><br>
         <a class="contact-links" href="mailto:meaganmcnarry@gmail.com">meaganmcnarry@gmail.com</a><br>
         <a class="contact-links" href="https://bsky.app/profile/vertigala.bsky.social">Bluesky</a></p><br>
     </div>
