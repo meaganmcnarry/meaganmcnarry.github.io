@@ -284,6 +284,14 @@ body {
     padding-bottom: 60px;
 }
 
+    #heading1{
+        line-height: 1.2;
+    }
+
+    #heading2{
+        line-height: 1.2;
+    }
+
 #message{
     width: 300px;
 }
