@@ -186,7 +186,7 @@ body {
 
 .about-text{
     color: rgb(126, 124, 120);
-    font-size: 1.2rem;
+    font-size: 1.1rem;
     font-family: "momo trust sans", "Arial", sans-serif;
     font-weight: 300;
     line-height: 1.6;
@@ -261,11 +261,6 @@ body {
         top: 2%;
         left: 5%;
     }
-
-    #logo-nav{
-        width: 10%;
-    }
-
 
     #name-button{
         display: none;
