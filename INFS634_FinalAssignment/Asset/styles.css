@@ -288,11 +288,15 @@ body {
     }
 
     #logo-nav{
-        width: 10%;
+        width: 12%;
     }
 
     .logo-nav{
-        width: 10%;
+        width: 80%;
+        margin: 0;
+        position: absolute;
+        top: 2.5%;
+        left: 5%;
     }
 
     /* Index page adjustments */
