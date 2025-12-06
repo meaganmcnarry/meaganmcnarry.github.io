@@ -287,6 +287,10 @@ body {
         font-size: 1.0rem;
     }
 
+    #logo-nav{
+        width: 10%;
+    }
+
     /* Index page adjustments */
     .center{
         padding-top: 25px;
