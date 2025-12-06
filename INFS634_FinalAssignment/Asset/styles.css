@@ -4,7 +4,6 @@
     font-size: 1.8rem;
     font-family: "momo trust sans", "Arial", sans-serif;
     font-weight: 600;
-    padding-block: 10px;
     padding-left: 10px;
     text-decoration:none;
     text-align: left;
@@ -15,8 +14,14 @@
     font-size: 1.3rem;
     font-family: "momo trust sans", "Arial", sans-serif;
     padding-left: 10px;
-    padding-block: 0px;
     text-align: left;
+}
+
+.logo-nav{
+    margin: 0;
+    position: absolute;
+    top: 3%;
+    left: 48%;
 }
 
 .nav-button{
@@ -83,10 +88,10 @@ body {
     -ms-transform: translate(-50%, -50%);
     transform: translate(-50%, -50%);
     background-color:rgb(255, 252, 246);
-    padding-top: 35px;
+    padding-top: 20px;
     padding-left: 80px;
     padding-right: 80px;
-    padding-bottom: 70px;
+    padding-bottom: 45px;
 }
 
 .nav-button-home{
@@ -113,7 +118,7 @@ body {
     flex-wrap: wrap;
     gap: 20px;
     padding: 20px;
-    padding-top: 100px;
+    padding-top: 80px;
     justify-content: center;
 }
 
@@ -136,17 +141,17 @@ body {
     flex-wrap: wrap;
     gap: 20px;
     padding: 20px;
-    padding-top: 100px;
+    padding-top: 80px;
     justify-content: center;
 }
 
 #project-title{
-    color: rgb(255, 132, 0);
+    color: #ff8400;
     font-size: 1.5rem;
     font-family: "momo trust sans", "Arial", sans-serif;
     font-weight: 500;
     text-decoration:none;
-    padding-top: 50px;
+    padding-top: 80px;
     text-align: center;
 }
 
@@ -168,7 +173,6 @@ body {
 /* Project page styles end */
 
 /* About page styles */
-
 #about-contact-button{
     color: rgb(255, 132, 0);
     text-decoration:none;
@@ -198,23 +202,18 @@ body {
     flex-wrap: wrap;
     justify-content: center;
     gap: 175px;
-    padding-top: 100px
+    padding-top: 80px
 }
 /* About page styles end */
 
 /* Contact page styles */
-.contact-container{
-    padding: 20px;
-    padding-top: 10px;
-}
-
 #contact-title{
     color: rgb(255, 132, 0);
     font-size: 1.5rem;
     font-family: "momo trust sans", "Arial", sans-serif;
     font-weight: 500;
     text-decoration:none;
-    padding-top: 50px;
+    padding-top: 80px;
     text-align: center;
 
 }
@@ -253,11 +252,20 @@ body {
 }
 /* Contact page styles end */
 
+/* tablet size screen adjustments */
 @media screen and (max-width: 1000px){
 
-    .container-buttons{
-        float: left;
+    .logo-nav{
+        margin: 0;
+        position: absolute;
+        top: 2%;
+        left: 5%;
     }
+
+    #logo-nav{
+        width: 10%;
+    }
+
 
     #name-button{
         display: none;
@@ -274,15 +282,23 @@ body {
     #heading2{
         line-height: 1.2;
     }
-
-@media screen and (max-width: 600px) {
-
-.center{
-    padding-top: 25px;
-    padding-left: 50px;
-    padding-right: 50px;
-    padding-bottom: 60px;
 }
+/* tablet size screen adjustments end */
+
+/*phone size screen adjustments */
+@media screen and (max-width: 600px) {
+        
+    .nav-button{
+        font-size: 1.0rem;
+    }
+
+    /* Index page adjustments */
+    .center{
+        padding-top: 25px;
+        padding-left: 50px;
+        padding-right: 50px;
+        padding-bottom: 60px;
+    }
 
     #heading1{
         line-height: 1.2;
@@ -291,56 +307,46 @@ body {
     #heading2{
         line-height: 1.2;
     }
+    /* index page adjustments end */
 
-#message{
-    width: 300px;
-}
+    /* project page adjustments */
+    #project-title{
+        font-size: 1.2rem;
+    }
 
-.nav-button{
-    font-size: 1.0rem;
-    font-family: "momo trust sans", "Arial", sans-serif;
-    text-decoration: none;
-    color: rgb(255, 132, 0);
-    padding-top: 10px;
-    padding-bottom: 10px;
-    padding-left: 10px;
-    padding-right: 10px;
-}
+    #project-subtitle{
+        font-size: 1.0rem;
+    }
 
-#project-title{
-    color: rgb(255, 132, 0);
-    font-size: 1.2rem;
-    font-family: "momo trust sans", "Arial", sans-serif;
-    font-weight: 500;
-    text-decoration:none;
-    padding-top: 50px;
-    text-align: center;
-}
+    #project-description{
+        font-size: 1.0rem;
+    }
 
-#project-subtitle{
-    color: rgb(126, 124, 120);
-    font-size: 1.0rem;
-    font-family: "momo trust sans", "Arial", sans-serif;
-    font-weight: 300;
-    text-align: center;
-}
+    #Lorna-portrait-project{
+        width: 80%
+    }
 
-#project-description{
-    color: rgb(126, 124, 120);
-    font-size: 1.0rem;
-    font-family: "momo trust sans", "Arial", sans-serif;
-    font-weight: 300;
-    text-align: center;
-}
+    #Lorna-sketch{
+        width: 80%
+    }
+    /* project page adjustments end */
 
-#Lorna-portrait-project{
-    width: 80%
-}
+    /* contact page adjustments */
+    #contact-title{
+        font-size: 1.2rem;
+    }
 
-#Lorna-sketch{
-    width: 80%
-}
+    #contact-paragraph{
+        font-size: 1.0rem;
+    }
 
-}
+    .contact-form-text{
+        font-size: 1.0rem;
+    }
 
+    #message{
+        width: 300px;
+    }
+    /* contact page adjustments end */
 }
+/* phone size screen adjustments end */
