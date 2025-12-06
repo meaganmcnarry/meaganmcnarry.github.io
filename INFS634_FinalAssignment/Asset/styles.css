@@ -252,7 +252,7 @@ body {
 }
 /* Contact page styles end */
 
-@media (max-width: 600px){
+@media screen and (max-width: 600px){
 
     .container-buttons{
         float: left;
@@ -261,13 +261,13 @@ body {
    /* #portfolio-button-home{
         line-height: 2;
     }
-    
+    */
     #about-button-home{
         line-height: 2;
     }
-
+/*
     #heading2{
         line-height: 1.2;
-    }*/
-
+    }
+*/
 }
