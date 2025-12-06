@@ -59,6 +59,16 @@ body {
 }
 /* Body styles end */
 
+/* Footer styles */
+#copyright-text{
+    color: rgb(126, 124, 120);
+    font-size: 1.0rem;
+    font-family: "momo trust sans", "Arial", sans-serif;
+    font-weight: 300;
+    text-align: center;
+}
+/* Footer styles end */
+
 /* Index page styles */
 #heading1{
     color: rgb(255, 132, 0);
